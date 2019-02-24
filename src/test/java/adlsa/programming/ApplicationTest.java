@@ -22,6 +22,7 @@ public class ApplicationTest {
     }
 	
 	 @Test
+	 @Ignore
     public void testWordUnMatchString() {
       //  int count = app.countWords("this is a test");
 		String msg=app.hello("My Friend");
